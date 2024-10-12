@@ -1862,6 +1862,25 @@ margin-left: 15rem;
 
 
 @media (max-width: 450px) {
+
+
+  .newsletter-banner {
+    height: 5rem;
+    width: 5rem;
+    margin-top: 32rem;
+    position: absolute;
+    margin-left: 24rem;
+  }
+
+  .feature{
+    margin-top:65rem ;
+  }
+
+  .blog-card  .card-banner{
+    width: 23rem;
+    margin-left: 2rem;
+    height: 25rem;
+  }
   .carrossel{
     width:680px;
     max-width: 480px;
@@ -1874,7 +1893,7 @@ margin-left: 15rem;
     background-color: red;
   }
   .header{
-    max-width: 500px;
+    max-width: 550px;
     position: unset;
     height: 10rem;
     background-color: black;
@@ -1895,15 +1914,15 @@ margin-left: 15rem;
 
 
   .carrossel{
-    width:680px;
-    max-width: 680px;
+    width:450px;
+    max-width: 300px;
     height: 400px;
   }
   .footer-top{
     padding-top: 12rem;
   } 
   .footer-text{
-    text-align: center;
+    display: none;
   }
   .footer-list-title{
     text-align: center;
@@ -1934,4 +1953,20 @@ margin-left: 15rem;
 margin-left: 15rem;
  flex-direction: column;
   }
+}
+@media (max-width: 270px) {
+  .carrossel{
+    width:880px;
+    max-width: 480px;
+    height: 400px;
+  }
+
+
+
+
+
+
+
+
+
 }
